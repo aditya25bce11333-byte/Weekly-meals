@@ -1,3 +1,4 @@
+console.log("version 2");
 const API_URL = "https://698a22b0c04d974bc6a17e23.mockapi.io/Menu"; // Replace with your actual API endpoint
 
 /* ---------- TIME & DAY HELPERS ---------- */
@@ -106,4 +107,5 @@ setInterval(loadMealByTime, 60000);
 
 /* ---------- BUTTON BINDING ---------- */
 document.getElementById("toggle-week").onclick = toggleWeeklyMenu;
+
 
